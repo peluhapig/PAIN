@@ -1,0 +1,65 @@
+#shapes {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -2;
+    height: 90%;
+}
+#lamp{
+    position: absolute;
+    top: 1%;
+    right: 0px;
+
+}
+
+.anilam{
+    position: absolute;
+    right: 19%;
+    width: 435px;
+    height: 100%;
+    
+}
+
+#ani1{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 74%;
+    visibility: visible;
+}
+
+#ani2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 74%;
+    
+}
+
+#ani3{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 70%;
+   
+}
+
+#ani1:hover{
+    visibility: hidden;
+    transition-duration: 50ms;
+}
+#ani2:hover{
+    visibility: visible;
+    transition-duration: 20ms;
+}
+
+#ani1:active,#ani2:active{
+    visibility: hidden;
+    transition-duration: 50ms;
+
+}
+
+#ani3:active{
+    visibility: visible;
+    transition-duration: 50ms;
+}
